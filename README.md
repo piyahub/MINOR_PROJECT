@@ -46,4 +46,5 @@ This project uses a **Deep Convolutional GAN (DCGAN)** to generate synthetic ima
 
 
 
+![Screenshot 2025-04-21 225657](https://github.com/user-attachments/assets/3fd0ffaf-0c95-42b3-a28c-d9bd55d829d8)
 
