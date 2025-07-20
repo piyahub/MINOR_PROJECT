@@ -13,7 +13,7 @@ This project uses a **Deep Convolutional GAN (DCGAN)** to generate synthetic ima
 
 ## 🚀 Demo Notebook
 
-🔗 [Click here to open the notebook in Google Colab](https://colab.research.google.com/drive/1uLwsVU38ukE8bldt1InDKk-W2sXMaurN?usp=sharing)
+🔗 [Click here to open the notebook in Google Colab](https://colab.research.google.com/drive/15leUZj0DC8-Tr6ByaD1_cnU6UTmoel-p?usp=sharing)
 
 ---
 
