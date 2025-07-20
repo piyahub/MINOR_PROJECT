@@ -42,13 +42,6 @@ A Conditional GAN is a type of Generative Adversarial Network where both the gen
 
 ---
 
-## 🧪 Sample Output
-
-Generated images conditioned on class labels:
-
-![Sample Output](path_to_some_image.png)
-
----
 
 ## 📈 FID Score Calculation
 
@@ -58,10 +51,3 @@ Lower FID = More realistic images ✅
 
 ---
 
-## 🚀 Getting Started
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/piyahub/MINOR_PROJECT.git
-cd MINOR_PROJECT
