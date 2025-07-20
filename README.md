@@ -1,50 +1,67 @@
+# 🎨 Conditional GAN for Image Generation
 
-# 🧠✨ Image Augmentation Using GANs (DCGAN based)  
-
-## 📌 Overview
-
-This project uses a **Deep Convolutional GAN (DCGAN)** to generate synthetic images for **image augmentation**, especially useful for handling class imbalance and enriching datasets.  
-
-✅ Built & trained entirely on **Google Colab** with GPU support.  
-✅ Uses **PyTorch** for model development.  
-✅ Outputs high-quality fake images using adversarial training.
+Welcome to the official repository for a **Conditional Generative Adversarial Network (CGAN)** project focused on class-conditional image generation and evaluation using FID score.
 
 ---
 
-## 🚀 Demo Notebook
+## 🧠 What is a CGAN?
 
-🔗 [Click here to open the notebook in Google Colab](https://colab.research.google.com/drive/15leUZj0DC8-Tr6ByaD1_cnU6UTmoel-p?usp=sharing)
-
----
-
-## 🔧 Tech Stack & Tools
-
-| Tool              | Usage                            |
-|-------------------|----------------------------------|
-| 🐍 Python         | Core programming language         |
-| 🔥 PyTorch        | Deep learning framework           |
-| 🧪 Torchvision     | Image preprocessing               |
-| 📊 Matplotlib     | Visualizing training and outputs  |
-| 💻 Google Colab   | Training & running the notebook   |
-| 💾 CUDA/GPU       | Accelerated model training        |
+A Conditional GAN is a type of Generative Adversarial Network where both the generator and discriminator are conditioned on auxiliary information (like class labels). This allows for targeted image generation — e.g., generating a specific digit/class.
 
 ---
 
-## 🧠 Model Architecture
+## 📌 Features
 
-- **Generator**: Transforms random noise into realistic images using transposed convolution layers, batch normalization, and ReLU activations.
-- **Discriminator**: Classifies real vs. fake images using convolution layers and LeakyReLU.
-- **Loss Function**: Binary Cross Entropy Loss (BCE)
-- **Optimizer**: Adam (learning rate = 0.0002, betas = (0.5, 0.999))
+- ✅ Conditional image generation using CGAN
+- 🧪 Trained on image dataset (e.g., MNIST / Custom)
+- 🧠 Uses **VGG16** for feature extraction
+- 📊 Calculates **FID (Fréchet Inception Distance)** for image quality
+- 💾 Saves generated images and models
+- 📉 Tracks training progress visually
 
 ---
 
-## 🖼️ Sample Outputs
+## 🛠️ Tech Stack
 
+- **Python**
+- **PyTorch**
+- **NumPy, Matplotlib**
+- **PIL (Pillow)**
+- **VGG16 (torchvision)**
+- **Jupyter Notebook**
 
-![Screenshot 2025-04-21 224647](https://github.com/user-attachments/assets/954da17a-286a-46f7-842e-f5eb69ec885a)
+---
 
+## 📁 Files
 
+| File | Description |
+|------|-------------|
+| `FinalCgan.ipynb` | Main notebook containing full CGAN implementation |
+| `generated_images/` | Folder where generated images are saved |
+| `saved_models/` | Folder containing generator & discriminator weights |
 
-![Screenshot 2025-04-21 225657](https://github.com/user-attachments/assets/3fd0ffaf-0c95-42b3-a28c-d9bd55d829d8)
+---
 
+## 🧪 Sample Output
+
+Generated images conditioned on class labels:
+
+![Sample Output](path_to_some_image.png)
+
+---
+
+## 📈 FID Score Calculation
+
+FID is used to measure the similarity between real and generated images using VGG features.
+
+Lower FID = More realistic images ✅
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/piyahub/MINOR_PROJECT.git
+cd MINOR_PROJECT
