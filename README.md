@@ -1,6 +1,7 @@
 # 🎨 Conditional GAN for Image Generation
 
 Welcome to the official repository for a **Conditional Generative Adversarial Network (CGAN)** project focused on class-conditional image generation and evaluation using FID score.
+[Open in Colab](https://colab.research.google.com/drive/15leUZj0DC8-Tr6ByaD1_cnU6UTmoel-p?usp=sharing)
 
 ---
 
